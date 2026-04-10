@@ -4,7 +4,7 @@ const Toggle = () => {
   const [isOn, setIsOn] = useState(false);
   return (
     <div>
-      <p>{isOn ? "ON" : "}</p>
+      <p>{isOn ? "ON" : "OFF"}</p>
 
       <button onClick={() => setIsOn(!isOn)}>Toggle</button>
     </div>
