@@ -4,6 +4,7 @@ import EvenNumbers from "./components/EvenNumbers";
 import ReverseString from "./components/ReverseString";
 import UserList from "./components/UserList";
 import SerachFilter from "./components/SearchFilter";
+import Toggle from "./components/Toggle";
 
 function App() {
   const headerStyle = {
@@ -22,7 +23,8 @@ function App() {
       {/* <EvenNumbers arry={[5, 7, 9, 8]}></EvenNumbers> */}
       {/* <ReverseString /> */}
       {/* <UserList /> */}
-      <SerachFilter />
+      {/* <SerachFilter /> */}
+      <Toggle />
     </>
   );
 }
