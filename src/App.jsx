@@ -3,6 +3,7 @@ import ToDo from "./components/ToDo";
 import EvenNumbers from "./components/EvenNumbers";
 import ReverseString from "./components/ReverseString";
 import UserList from "./components/UserList";
+import SerachFilter from "./components/SearchFilter";
 
 function App() {
   const headerStyle = {
@@ -17,10 +18,11 @@ function App() {
     <>
       <h1 style={headerStyle}>Dashboard</h1>
       {/* <Counter /> */}
-      <ToDo />
+      {/* <ToDo /> */}
       {/* <EvenNumbers arry={[5, 7, 9, 8]}></EvenNumbers> */}
       {/* <ReverseString /> */}
       {/* <UserList /> */}
+      <SerachFilter />
     </>
   );
 }
