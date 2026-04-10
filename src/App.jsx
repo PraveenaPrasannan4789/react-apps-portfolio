@@ -5,6 +5,7 @@ import ReverseString from "./components/ReverseString";
 import UserList from "./components/UserList";
 import SerachFilter from "./components/SearchFilter";
 import Toggle from "./components/Toggle";
+import LoginStatus from "./components/LoginStatus";
 
 function App() {
   const headerStyle = {
@@ -24,7 +25,8 @@ function App() {
       {/* <ReverseString /> */}
       {/* <UserList /> */}
       {/* <SerachFilter /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      <LoginStatus />
     </>
   );
 }
