@@ -7,6 +7,7 @@ import SerachFilter from "./components/SearchFilter";
 import Toggle from "./components/Toggle";
 import LoginStatus from "./components/LoginStatus";
 import Hook from "./components/Hook";
+import Media from "./components/Media";
 
 function App() {
   const headerStyle = {
@@ -28,7 +29,8 @@ function App() {
       {/* <SerachFilter /> */}
       {/* <Toggle /> */}
       {/* <LoginStatus /> */}
-      <Hook />
+      {/* <Hook /> */}
+      <Media />
     </>
   );
 }
